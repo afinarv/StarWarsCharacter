@@ -27,6 +27,15 @@
                                     <segue destination="0j4-lb-dxJ" kind="show" id="gFt-uO-XfZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aYR-Eg-Xaw">
+                                <rect key="frame" x="171" y="474" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Info"/>
+                                <connections>
+                                    <segue destination="Ufq-D3-sf4" kind="show" id="2F0-Oa-9wi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -45,7 +54,23 @@
             </objects>
             <point key="canvasLocation" x="956.92307692307691" y="68.957345971563981"/>
         </scene>
-        <!--People List View Controller-->
+        <!--Info View Controller-->
+        <scene sceneID="6F2-cH-3iy">
+            <objects>
+                <viewController id="Ufq-D3-sf4" customClass="InfoViewController" customModule="StarWarsCharacter" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wt8-ji-lbl">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6k7-Ma-CBX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jb0-cr-sS5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vgQ-Wf-kko" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="957" y="730"/>
+        </scene>
+        <!--Character List-->
         <scene sceneID="qM6-CH-hEd">
             <objects>
                 <viewController id="0j4-lb-dxJ" customClass="PeopleListViewController" customModule="StarWarsCharacter" customModuleProvider="target" sceneMemberID="viewController">
@@ -77,7 +102,7 @@
                             <constraint firstItem="0XF-gH-YpG" firstAttribute="leading" secondItem="ajR-Qh-sTh" secondAttribute="leading" id="pzv-KB-5ja"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="UR9-pD-bUf"/>
+                    <navigationItem key="navigationItem" title="Character List" id="UR9-pD-bUf"/>
                     <connections>
                         <outlet property="tableView" destination="0XF-gH-YpG" id="hGF-fa-NtY"/>
                         <segue destination="f5U-Ob-w6E" kind="show" identifier="showDetail" id="ehm-F6-SGM"/>

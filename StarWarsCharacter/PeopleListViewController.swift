@@ -44,4 +44,8 @@ class PeopleListViewController: UIViewController, UITableViewDataSource, UITable
         let destination = segue.destination as! DetailViewController
         destination.person = selectedPerson
     }
+    
+    func makeAFunc() {
+        print("test a func")
+    }
 }

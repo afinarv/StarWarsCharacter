@@ -15,6 +15,7 @@
 		9BE50EFF286A78DA0052DBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE50EFD286A78DA0052DBA3 /* LaunchScreen.storyboard */; };
 		9BE50F09286A80C00052DBA3 /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE50F08286A80C00052DBA3 /* PeopleListViewController.swift */; };
 		9BE50F0B286A81E50052DBA3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE50F0A286A81E50052DBA3 /* DetailViewController.swift */; };
+		9BE50F0D286AAC8A0052DBA3 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE50F0C286AAC8A0052DBA3 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9BE50F00286A78DA0052DBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BE50F08286A80C00052DBA3 /* PeopleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewController.swift; sourceTree = "<group>"; };
 		9BE50F0A286A81E50052DBA3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9BE50F0C286AAC8A0052DBA3 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 		9BE50EE6286A78D80052DBA3 = {
 			isa = PBXGroup;
 			children = (
+				9BE50F0C286AAC8A0052DBA3 /* InfoViewController.swift */,
 				9BE50EF1286A78D80052DBA3 /* StarWarsCharacter */,
 				9BE50EF0286A78D80052DBA3 /* Products */,
 			);
@@ -148,6 +151,7 @@
 				9BE50F09286A80C00052DBA3 /* PeopleListViewController.swift in Sources */,
 				9BE50F0B286A81E50052DBA3 /* DetailViewController.swift in Sources */,
 				9BE50EF3286A78D80052DBA3 /* AppDelegate.swift in Sources */,
+				9BE50F0D286AAC8A0052DBA3 /* InfoViewController.swift in Sources */,
 				9BE50EF5286A78D80052DBA3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

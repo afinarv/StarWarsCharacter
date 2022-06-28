@@ -22,5 +22,10 @@ class DetailViewController: UIViewController {
         heightLabel.text = person.height.formatted()
         genderLabel.text = person.gender
         birthyearLabel.text = person.birthYear
+        makeAFunc()
+    }
+    
+    func makeAFunc() {
+        print("test a func")
     }
 }
