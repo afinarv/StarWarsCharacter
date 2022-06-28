@@ -46,7 +46,6 @@
 		9BE50EE6286A78D80052DBA3 = {
 			isa = PBXGroup;
 			children = (
-				9BE50F0C286AAC8A0052DBA3 /* InfoViewController.swift */,
 				9BE50EF1286A78D80052DBA3 /* StarWarsCharacter */,
 				9BE50EF0286A78D80052DBA3 /* Products */,
 			);
@@ -64,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				9BE50EF2286A78D80052DBA3 /* AppDelegate.swift */,
+				9BE50F0C286AAC8A0052DBA3 /* InfoViewController.swift */,
 				9BE50EF4286A78D80052DBA3 /* SceneDelegate.swift */,
 				9BE50EF6286A78D80052DBA3 /* ViewController.swift */,
 				9BE50F08286A80C00052DBA3 /* PeopleListViewController.swift */,
