@@ -13,6 +13,8 @@
 		9BE50EFA286A78D80052DBA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE50EF8286A78D80052DBA3 /* Main.storyboard */; };
 		9BE50EFC286A78DA0052DBA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BE50EFB286A78DA0052DBA3 /* Assets.xcassets */; };
 		9BE50EFF286A78DA0052DBA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BE50EFD286A78DA0052DBA3 /* LaunchScreen.storyboard */; };
+		9BE50F09286A80C00052DBA3 /* PeopleListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE50F08286A80C00052DBA3 /* PeopleListViewController.swift */; };
+		9BE50F0B286A81E50052DBA3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE50F0A286A81E50052DBA3 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9BE50EFB286A78DA0052DBA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BE50EFE286A78DA0052DBA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BE50F00286A78DA0052DBA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE50F08286A80C00052DBA3 /* PeopleListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleListViewController.swift; sourceTree = "<group>"; };
+		9BE50F0A286A81E50052DBA3 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				9BE50EF2286A78D80052DBA3 /* AppDelegate.swift */,
 				9BE50EF4286A78D80052DBA3 /* SceneDelegate.swift */,
 				9BE50EF6286A78D80052DBA3 /* ViewController.swift */,
+				9BE50F08286A80C00052DBA3 /* PeopleListViewController.swift */,
+				9BE50F0A286A81E50052DBA3 /* DetailViewController.swift */,
 				9BE50EF8286A78D80052DBA3 /* Main.storyboard */,
 				9BE50EFB286A78DA0052DBA3 /* Assets.xcassets */,
 				9BE50EFD286A78DA0052DBA3 /* LaunchScreen.storyboard */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BE50EF7286A78D80052DBA3 /* ViewController.swift in Sources */,
+				9BE50F09286A80C00052DBA3 /* PeopleListViewController.swift in Sources */,
+				9BE50F0B286A81E50052DBA3 /* DetailViewController.swift in Sources */,
 				9BE50EF3286A78D80052DBA3 /* AppDelegate.swift in Sources */,
 				9BE50EF5286A78D80052DBA3 /* SceneDelegate.swift in Sources */,
 			);
